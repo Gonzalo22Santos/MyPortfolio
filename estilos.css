@@ -55,23 +55,48 @@ section {
 
 }
 header {
+    
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
-    padding: 40px 100px;
+    padding: 40px 0px ;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+a.logo {
+    color: #ccf2ff ;
+    margin-left: 6% ;
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+
+}
 header.logo {
-    color: #ccf2ff;
+    color: #e6ffe6;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
+
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #ccf2ff;
+
 
 }
