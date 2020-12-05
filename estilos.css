@@ -76,7 +76,7 @@ header {
 
 }
 header.sticky {
-    background:rgb(148, 163, 209);
+    background: linear-gradient(70deg, #003333, #00001a);
     padding: 20px 100px;
     
     
@@ -129,6 +129,9 @@ header ul li a {
 .heading h2 {
     font-weight: 600;
     font-size: 30px;
+    text-decoration: underline;
+    
+
 }
 .content {
     display: flex;
@@ -143,6 +146,12 @@ header ul li a {
 .contentBx h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #666666;
+}
+.content h3 {
+    color: #666666;
+}
+.contactInfoBox p {
     color: #666666;
 }
 .foto {
