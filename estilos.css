@@ -71,13 +71,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.6s;
+    transition: 1s;
     
 
 }
 header.sticky {
     background: linear-gradient(70deg, #003333, #00001a);
-    padding: 20px 100px;
+    
+    
     
     
 
@@ -112,7 +113,9 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #ccf2ff;
+    color: #e6ffe6;
+    text-shadow: 2px 2px #00001a;
+    font-size: 30px;
     
 
     
@@ -142,6 +145,8 @@ header ul li a {
     min-width: 50%;
     color: #666666;
     text-shadow: 2px 2px #00001a;
+    font-size: 30px;
+   
 }
 .contentBx h3 {
     font-size: 24px;
@@ -153,6 +158,9 @@ header ul li a {
 }
 .contactInfoBox p {
     color: #666666;
+    
+
+
 }
 .foto {
     min-width: 50%;
