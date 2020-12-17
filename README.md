@@ -1,2 +1,2 @@
 # MyPortfolio
-Portfolio personal with HTML5, CSS and Javascript. ( in progress)
+Portfolio personal with HTML5, CSS and Javascript. 
